@@ -17,7 +17,7 @@ font-weight: 900;
 font-size: large;
 
 }
-.button{
+#buy-now{
     text-align: center;
     background-color: #5c7394;
     border: none;
@@ -83,8 +83,9 @@ padding: 8px;
 
 .third-quater{
     font-style: italic;
+    font-size: large;
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 125px;
 
 }
 
@@ -93,7 +94,41 @@ padding: 8px;
     flex-direction: column;
     width: min-content;
     font-size: small;
+}
+.last-quater{
+    display:flex;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.action-box{
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 30px auto;
+}
 
+.sign-up-box{
+    display: flex;
+    gap: 40px;
 
+}
 
+#sign-up-now{
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px;
 }
